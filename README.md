@@ -61,4 +61,4 @@ Co-Authored by Grok (built by xAI)
 
 ## License
 
-MIT
+MIT License © 2026 ColhounTech Limited
