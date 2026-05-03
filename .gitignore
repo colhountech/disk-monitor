@@ -1,0 +1,29 @@
+# Build artifacts
+*.o
+disk-monitor
+disk-monitor.1
+disk-monitor.1.gz
+
+# State / runtime files
+/var/lib/disk-monitor/
+state.log
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
