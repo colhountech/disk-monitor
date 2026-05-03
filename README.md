@@ -10,13 +10,18 @@ A lightweight native C program that monitors disk usage on physical filesystems 
 - Simple append-only history log
 - Clean, aligned output with trend arrows (▲ / ▼)
 - Zero external dependencies
+- Super Fast
 
 ## Example Output
+
+```bash
 
 🖥️  Disk Monitor — 2026-05-03
 
 Root (/):     69% used ( 26.0G used,  11.3G free) ▲+2%
 Data disk:    17% used ( 13.4G used,  64.8G free) → 0%
+
+```
 
 ## Installation
 
@@ -40,7 +45,9 @@ disk-monitor
 
 Add to cron (example — daily at 6 AM):
 
+```bash
 0 6 * * * /usr/local/bin/disk-monitor
+```
 
 ## Building from Source
 
